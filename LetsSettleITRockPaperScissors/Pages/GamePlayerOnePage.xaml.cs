@@ -24,5 +24,6 @@ namespace LetsSettleITRockPaperScissors.Pages
         {
             InitializeComponent();
         }
+
     }
 }
