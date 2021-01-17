@@ -96,6 +96,10 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Base\RelayCommand.cs" />
+    <Compile Include="Models\GameEngine.cs" />
+    <Compile Include="Models\GameMoves.cs" />
+    <Compile Include="Models\GameSetResult.cs" />
+    <Compile Include="Models\Player.cs" />
     <Compile Include="Pages\GameOverPage.xaml.cs">
       <DependentUpon>GameOverPage.xaml</DependentUpon>
     </Compile>
@@ -126,7 +130,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Base\BaseViewModel.cs" />
-    <Compile Include="GameEngine.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>

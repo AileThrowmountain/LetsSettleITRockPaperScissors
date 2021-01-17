@@ -23,6 +23,7 @@ namespace LetsSettleITRockPaperScissors
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = new MainWindowViewModel();
         }
     }
 }
