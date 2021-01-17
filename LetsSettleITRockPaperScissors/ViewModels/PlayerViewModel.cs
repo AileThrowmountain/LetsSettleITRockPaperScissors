@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LetsSettleITRockPaperScissors.ViewModels
 {
-    class GameViewModel
+    class PlayerViewModel
     {
     }
 }

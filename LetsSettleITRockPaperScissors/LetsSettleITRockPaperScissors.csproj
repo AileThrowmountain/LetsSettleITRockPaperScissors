@@ -111,7 +111,12 @@
     <Compile Include="Pages\SetResultPage.xaml.cs">
       <DependentUpon>SetResultPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ViewModels\GameViewModel.cs" />
+    <Compile Include="ViewModels\GameOverViewModel.cs" />
+    <Compile Include="ViewModels\GamePlayerOneViewModel.cs" />
+    <Compile Include="ViewModels\GamePlayerTwoViewModel.cs" />
+    <Compile Include="ViewModels\MainWindowViewModel.cs" />
+    <Compile Include="ViewModels\PlayerViewModel.cs" />
+    <Compile Include="ViewModels\SetResultViewModel.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
